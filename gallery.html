@@ -1,0 +1,719 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery - Abasila Creative Arts</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <img src="abasila 2.jpg" alt="Abasila Creative Arts Logo" class="logo-img">
+            </div>
+            <ul class="nav-menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="gallery.html" class="active">Gallery</a></li>
+                <li><a href="collections.html">Collections</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <section class="page-header">
+            <div class="container">
+                <h1>Gallery</h1>
+                <p>Explore the diverse collection of mixed media artworks</p>
+            </div>
+        </section>
+
+        <section class="gallery-filters">
+            <div class="container">
+                <div class="filter-buttons">
+                    <button class="filter-btn active" data-filter="all">All Works</button>
+                    <button class="filter-btn" data-filter="marine">Marine Life</button>
+                    <button class="filter-btn" data-filter="wildlife">Wildlife</button>
+                    <button class="filter-btn" data-filter="furniture">Furniture</button>
+                    <button class="filter-btn" data-filter="drawings">Drawings</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="gallery-grid">
+            <div class="container">
+                <div class="gallery-items">
+                    <!-- Marine Life -->
+                    <div class="gallery-item" data-category="marine">
+                        <img src="octopus.jpg" alt="Octopus in Waters">
+                        <div class="gallery-overlay">
+                            <h3>Octopus in Waters</h3>
+                            <p>1" papier mache, wires, glue and gesso</p>
+                        </div>
+                    </div>
+                    <div class="gallery-item" data-category="marine">
+                        <img src="dolphin.jpg" alt="Dolphin in Waters">
+                        <div class="gallery-overlay">
+                            <h3>Dolphin in Waters</h3>
+                            <p>8" papier mache, wires, glue and gesso</p>
+                        </div>
+                    </div>
+                    <div class="gallery-item" data-category="marine">
+                        <img src="turtle.jpg" alt="Turtle in Waters">
+                        <div class="gallery-overlay">
+                            <h3>Turtle in Waters</h3>
+                            <p>3.5" papier mache, wires, glue and gesso</p>
+                        </div>
+                    </div>
+                    <div class="gallery-item" data-category="marine">
+                        <img src="swordfish.jpg" alt="Swordfish in Waters">
+                        <div class="gallery-overlay">
+                            <h3>Swordfish in Waters</h3>
+                            <p>8" papier mache, wires, glue and gesso</p>
+                        </div>
+                    </div>
+                    <div class="gallery-item" data-category="marine">
+                        <img src="starfish.jpg" alt="Starfish">
+                        <div class="gallery-overlay">
+                            <h3>Starfish</h3>
+                            <p>1.3" papier mache, wires, glue and gesso</p>
+                        </div>
+                    </div>
+                    <div class="gallery-item" data-category="marine">
+                        <img src="shark.jpg" alt="Shark">
+                        <div class="gallery-overlay">
+                            <h3>Shark</h3>
+                            <p>8" papier mache, wires, glue and gesso</p>
+                        </div>
+                    </div>
+
+                    <!-- Marine Life (More Variations) -->
+                    <div class="gallery-item" data-category="marine">
+                        <img src="octopus (2).jpg" alt="Octopus Variation 2">
+                        <div class="gallery-overlay">
+                            <h3>Octopus Variation 2</h3>
+                            <p>Mixed media sculpture</p>
+                        </div>
+                    </div>
+                    <div class="gallery-item" data-category="marine">
+                        <img src="octopus (3).jpg" alt="Octopus Variation 3">
+                        <div class="gallery-overlay">
+                            <h3>Octopus Variation 3</h3>
+                            <p>Mixed media sculpture</p>
+                        </div>
+                    </div>
+                    <div class="gallery-item" data-category="marine">
+                        <img src="octopus (2) copy.jpg" alt="Octopus Variation (Copy)">
+                        <div class="gallery-overlay">
+                            <h3>Octopus Variation</h3>
+                            <p>Mixed media sculpture</p>
+                        </div>
+                    </div>
+                    <div class="gallery-item" data-category="marine">
+                        <img src="swordfish (2).jpg" alt="Swordfish Variation 2">
+                        <div class="gallery-overlay">
+                            <h3>Swordfish Variation 2</h3>
+                            <p>8" papier mache, wires, glue and gesso</p>
+                        </div>
+                    </div>
+                    <div class="gallery-item" data-category="marine">
+                        <img src="turtle (2).jpg" alt="Turtle Variation 2">
+                        <div class="gallery-overlay">
+                            <h3>Turtle Variation 2</h3>
+                            <p>3.5" papier mache, wires, glue and gesso</p>
+                        </div>
+                    </div>
+                    <div class="gallery-item" data-category="marine">
+                        <img src="turtle (3).jpg" alt="Turtle Variation 3">
+                        <div class="gallery-overlay">
+                            <h3>Turtle Variation 3</h3>
+                            <p>3.5" papier mache, wires, glue and gesso</p>
+                        </div>
+                    </div>
+
+                    <!-- Wildlife -->
+                    <div class="gallery-item" data-category="wildlife">
+                        <img src="elephant.jpg" alt="Elephant Head">
+                        <div class="gallery-overlay">
+                            <h3>Elephant Head</h3>
+                            <p>Papier mache, wires, glue and gesso</p>
+                        </div>
+                    </div>
+                    <div class="gallery-item" data-category="wildlife">
+                        <img src="elephant head.jpg" alt="Elephant Head Sculpture">
+                        <div class="gallery-overlay">
+                            <h3>Elephant Head Sculpture</h3>
+                            <p>Papier mache, wires, glue and gesso</p>
+                        </div>
+                    </div>
+                    <div class="gallery-item" data-category="wildlife">
+                        <img src="elephant trump.jpg" alt="Elephant Trumpeting">
+                        <div class="gallery-overlay">
+                            <h3>Elephant Trumpeting</h3>
+                            <p>Papier mache, wires, glue and gesso</p>
+                        </div>
+                    </div>
+                    <div class="gallery-item" data-category="wildlife">
+                        <img src="buffalo.jpg" alt="Bison Head">
+                        <div class="gallery-overlay">
+                            <h3>Bison Head</h3>
+                            <p>Papier mache, wires, glue and gesso</p>
+                        </div>
+                    </div>
+                    <div class="gallery-item" data-category="wildlife">
+                        <img src="penguin.jpg" alt="Penguin">
+                        <div class="gallery-overlay">
+                            <h3>Penguin</h3>
+                            <p>4" papier mache, wires, glue and gesso</p>
+                        </div>
+                    </div>
+                    <div class="gallery-item" data-category="wildlife">
+                        <img src="penguin (2).jpg" alt="Penguin Variation 2">
+                        <div class="gallery-overlay">
+                            <h3>Penguin Variation 2</h3>
+                            <p>4" papier mache, wires, glue and gesso</p>
+                        </div>
+                    </div>
+                    <div class="gallery-item" data-category="wildlife">
+                        <img src="giraffes for acup of tea.jpg" alt="Giraffes for a Cup of Tea">
+                        <div class="gallery-overlay">
+                            <h3>Giraffes for a Cup of Tea</h3>
+                            <p>At the Giraffe Center in Kenya</p>
+                        </div>
+                    </div>
+                    <div class="gallery-item" data-category="wildlife">
+                        <img src="elephant head (2).jpg" alt="Elephant Head Variation 2">
+                        <div class="gallery-overlay">
+                            <h3>Elephant Head Variation 2</h3>
+                            <p>Papier mache, wires, glue and gesso</p>
+                        </div>
+                    </div>
+
+                    <!-- Furniture -->
+                    <div class="gallery-item" data-category="furniture">
+                        <img src="coffee table.jpg" alt="Coffee Table">
+                        <div class="gallery-overlay">
+                            <h3>Coffee Table</h3>
+                            <p>Mixed media, wood roots, glass top red cedar (sold in Kenya)</p>
+                        </div>
+                    </div>
+                    <div class="gallery-item" data-category="furniture">
+                        <img src="counter front office wood and off cuts.jpg" alt="Counter Front Office">
+                        <div class="gallery-overlay">
+                            <h3>Counter Front Office</h3>
+                            <p>Wood and off cuts design</p>
+                        </div>
+                    </div>
+
+                    <div class="gallery-item" data-category="furniture">
+                        <img src="cofee table 2.jpg" alt="Coffee Table 2">
+                        <div class="gallery-overlay">
+                            <h3>Coffee Table 2</h3>
+                            <p>Mixed media coffee table</p>
+                        </div>
+                    </div>
+
+
+                    <!-- Drawings -->
+                    <div class="gallery-item" data-category="drawings">
+                        <img src="drawing of elephant.jpg" alt="Drawing of Elephant">
+                        <div class="gallery-overlay">
+                            <h3>Drawing of Elephant</h3>
+                            <p>Pencil drawing</p>
+                        </div>
+                    </div>
+                    <div class="gallery-item" data-category="drawings">
+                        <img src="drawing of king of jungle.jpg" alt="Drawing of King of Jungle">
+                        <div class="gallery-overlay">
+                            <h3>Drawing of King of Jungle</h3>
+                            <p>Pencil drawing</p>
+                        </div>
+                    </div>
+                    <div class="gallery-item" data-category="drawings">
+                        <img src="drawing of land scape.jpg" alt="Drawing of Landscape">
+                        <div class="gallery-overlay">
+                            <h3>Drawing of Landscape</h3>
+                            <p>Perspective drawing</p>
+                        </div>
+                    </div>
+                    <div class="gallery-item" data-category="drawings">
+                        <img src="dinasour.jpg" alt="Dinosaur Drawing">
+                        <div class="gallery-overlay">
+                            <h3>Dinosaur Drawing</h3>
+                            <p>Pencil drawing</p>
+                        </div>
+                    </div>
+                    <!-- Additional Drawings (new uploads) -->
+                    <div class="gallery-item" data-category="drawings">
+                        <img src="water colour iris.jpg" alt="Water Colour Iris">
+                        <div class="gallery-overlay">
+                            <h3>Water Colour Iris</h3>
+                            <p>Watercolor on paper</p>
+                        </div>
+                    </div>
+                    <div class="gallery-item" data-category="drawings">
+                        <img src="apacalas portrait.jpg" alt="Apacalas Portrait">
+                        <div class="gallery-overlay">
+                            <h3>Apacalas Portrait</h3>
+                            <p>Pastel drawing</p>
+                        </div>
+                    </div>
+                    <div class="gallery-item" data-category="drawings">
+                        <img src="pink portrait.jpg" alt="Pink Portrait">
+                        <div class="gallery-overlay">
+                            <h3>Pink Portrait</h3>
+                            <p>Mixed media drawing</p>
+                        </div>
+                    </div>
+                    <div class="gallery-item" data-category="drawings">
+                        <img src="dog pencil.jpg" alt="Dog Pencil">
+                        <div class="gallery-overlay">
+                            <h3>Dog Pencil</h3>
+                            <p>Pencil on paper</p>
+                        </div>
+                    </div>
+                    <div class="gallery-item" data-category="drawings">
+                        <img src="wildbeest herd.jpg" alt="Wildbeest Herd">
+                        <div class="gallery-overlay">
+                            <h3>Wildbeest Herd</h3>
+                            <p>Charcoal drawing</p>
+                        </div>
+                    </div>
+                    <div class="gallery-item" data-category="drawings">
+                        <img src="sqirrel pencil.jpg" alt="Sqirrel Pencil">
+                        <div class="gallery-overlay">
+                            <h3>Sqirrel Pencil</h3>
+                            <p>Pencil on paper</p>
+                        </div>
+                    </div>
+
+                    <!-- Wildlife (New from folder) -->
+                    <div class="gallery-item" data-category="wildlife">
+                        <img src="buffalo resting.jpg" alt="Buffalo Resting">
+                        <div class="gallery-overlay">
+                            <h3>Buffalo Resting</h3>
+                            <p>Wildlife drawing</p>
+                        </div>
+                    </div>
+                    <div class="gallery-item" data-category="wildlife">
+                        <img src="rhino charge.jpg" alt="Rhino Charge">
+                        <div class="gallery-overlay">
+                            <h3>Rhino Charge</h3>
+                            <p>Wildlife drawing</p>
+                        </div>
+                    </div>
+                    <div class="gallery-item" data-category="wildlife">
+                        <img src="wildbeast stressed.jpg" alt="Wildbeast Stressed">
+                        <div class="gallery-overlay">
+                            <h3>Wildbeast Stressed</h3>
+                            <p>Wildlife drawing</p>
+                        </div>
+                    </div>
+                    <div class="gallery-item" data-category="wildlife">
+                        <img src="wildbeast forward matching).jpg" alt="Wildbeast Forward Matching">
+                        <div class="gallery-overlay">
+                            <h3>Wildbeast Forward Matching</h3>
+                            <p>Wildlife drawing</p>
+                        </div>
+                    </div>
+                    <div class="gallery-item" data-category="wildlife">
+                        <img src="wildbeast stare.jpg" alt="Wildbeast Stare">
+                        <div class="gallery-overlay">
+                            <h3>Wildbeast Stare</h3>
+                            <p>Wildlife drawing</p>
+                        </div>
+                    </div>
+                    <div class="gallery-item" data-category="wildlife">
+                        <img src="wildbeast (smart pose).jpg" alt="Wildbeast (Smart Pose)">
+                        <div class="gallery-overlay">
+                            <h3>Wildbeast (Smart Pose)</h3>
+                            <p>Wildlife drawing</p>
+                        </div>
+                    </div>
+                    <div class="gallery-item" data-category="wildlife">
+                        <img src="tiger head.jpg" alt="Tiger Head">
+                        <div class="gallery-overlay">
+                            <h3>Tiger Head</h3>
+                            <p>Wildlife drawing</p>
+                        </div>
+                    </div>
+
+                    <!-- Drawings (New from folder) -->
+                    <div class="gallery-item" data-category="drawings">
+                        <img src="landscape(down at the river).jpg" alt="Landscape (Down at the River)">
+                        <div class="gallery-overlay">
+                            <h3>Landscape (Down at the River)</h3>
+                            <p>Landscape drawing</p>
+                        </div>
+                    </div>
+                    <div class="gallery-item" data-category="drawings">
+                        <img src="gas (the dog).jpg" alt="Gas (the Dog)">
+                        <div class="gallery-overlay">
+                            <h3>Gas (the Dog)</h3>
+                            <p>Pencil drawing</p>
+                        </div>
+                    </div>
+                    <div class="gallery-item" data-category="drawings">
+                        <img src="Dinosaur relief art.jpg" alt="Dinosaur Relief Art">
+                        <div class="gallery-overlay">
+                            <h3>Dinosaur Relief Art</h3>
+                            <p>Relief art</p>
+                        </div>
+                    </div>
+                    <div class="gallery-item" data-category="drawings">
+                        <img src="dinosaur relief (doing the jig).jpg" alt="Dinosaur Relief (Doing the Jig)">
+                        <div class="gallery-overlay">
+                            <h3>Dinosaur Relief (Doing the Jig)</h3>
+                            <p>Relief art</p>
+                        </div>
+                    </div>
+                    <div class="gallery-item" data-category="drawings">
+                        <img src="elephant pose..jpg" alt="Elephant Pose">
+                        <div class="gallery-overlay">
+                            <h3>Elephant Pose</h3>
+                            <p>Pencil drawing</p>
+                        </div>
+                    </div>
+                    <div class="gallery-item" data-category="drawings">
+                        <img src="elephant pose 2.jpg" alt="Elephant Pose 2">
+                        <div class="gallery-overlay">
+                            <h3>Elephant Pose 2</h3>
+                            <p>Pencil drawing</p>
+                        </div>
+                    </div>
+                    <div class="gallery-item" data-category="drawings">
+                        <img src="elephant shadow.jpg" alt="Elephant Shadow">
+                        <div class="gallery-overlay">
+                            <h3>Elephant Shadow</h3>
+                            <p>Pencil drawing</p>
+                        </div>
+                    </div>
+                    <div class="gallery-item" data-category="drawings">
+                        <img src="david of the oilers.jpg" alt="David of the Oilers">
+                        <div class="gallery-overlay">
+                            <h3>David of the Oilers</h3>
+                            <p>Portrait drawing</p>
+                        </div>
+                    </div>
+                    <div class="gallery-item" data-category="drawings">
+                        <img src="eyes.jpg" alt="Eyes">
+                        <div class="gallery-overlay">
+                            <h3>Eyes</h3>
+                            <p>Study drawing</p>
+                        </div>
+                    </div>
+                    <div class="gallery-item" data-category="drawings">
+                        <img src="design tribe.jpg" alt="Design Tribe">
+                        <div class="gallery-overlay">
+                            <h3>Design Tribe</h3>
+                            <p>Design study</p>
+                        </div>
+                    </div>
+                    <div class="gallery-item" data-category="drawings">
+                        <img src="art 1.jpg" alt="Art 1">
+                        <div class="gallery-overlay">
+                            <h3>Art 1</h3>
+                            <p>Artwork</p>
+                        </div>
+                    </div>
+                    <div class="gallery-item" data-category="drawings">
+                        <img src="art 2.jpg" alt="Art 2">
+                        <div class="gallery-overlay">
+                            <h3>Art 2</h3>
+                            <p>Artwork</p>
+                        </div>
+                    </div>
+                    <div class="gallery-item" data-category="drawings">
+                        <img src="art 3.jpg" alt="Art 3">
+                        <div class="gallery-overlay">
+                            <h3>Art 3</h3>
+                            <p>Artwork</p>
+                        </div>
+                    </div>
+                    <div class="gallery-item" data-category="drawings">
+                        <img src="art 4.jpg" alt="Art 4">
+                        <div class="gallery-overlay">
+                            <h3>Art 4</h3>
+                            <p>Artwork</p>
+                        </div>
+                    </div>
+                    <div class="gallery-item" data-category="drawings">
+                        <img src="art 5.jpg" alt="Art 5">
+                        <div class="gallery-overlay">
+                            <h3>Art 5</h3>
+                            <p>Artwork</p>
+                        </div>
+                    </div>
+                    <div class="gallery-item" data-category="drawings">
+                        <img src="art 6.jpg" alt="Art 6">
+                        <div class="gallery-overlay">
+                            <h3>Art 6</h3>
+                            <p>Artwork</p>
+                        </div>
+                    </div>
+
+                    <!-- New items added -->
+                    <!-- Marine -->
+                    <div class="gallery-item" data-category="marine">
+                        <img src="whale.jpg" alt="Whale">
+                        <div class="gallery-overlay">
+                            <h3>Whale</h3>
+                            <p>Marine life artwork</p>
+                        </div>
+                    </div>
+
+                    <!-- Wildlife -->
+                    <div class="gallery-item" data-category="wildlife">
+                        <img src="buffalo head preparation.jpg" alt="Buffalo Head Preparation">
+                        <div class="gallery-overlay">
+                            <h3>Buffalo Head Preparation</h3>
+                            <p>Wildlife artwork</p>
+                        </div>
+                    </div>
+                    <div class="gallery-item" data-category="wildlife">
+                        <img src="rhino head.jpg" alt="Rhino Head">
+                        <div class="gallery-overlay">
+                            <h3>Rhino Head</h3>
+                            <p>Wildlife artwork</p>
+                        </div>
+                    </div>
+
+                    <!-- Furniture -->
+                    <div class="gallery-item" data-category="furniture">
+                        <img src="cedar table.jpg" alt="Cedar Table">
+                        <div class="gallery-overlay">
+                            <h3>Cedar Table</h3>
+                            <p>Functional art furniture</p>
+                        </div>
+                    </div>
+                    <div class="gallery-item" data-category="furniture">
+                        <img src="table.jpg" alt="Table">
+                        <div class="gallery-overlay">
+                            <h3>Table</h3>
+                            <p>Functional art furniture</p>
+                        </div>
+                    </div>
+                    <div class="gallery-item" data-category="furniture">
+                        <img src="table 1.jpg" alt="Table 1">
+                        <div class="gallery-overlay">
+                            <h3>Table 1</h3>
+                            <p>Functional art furniture</p>
+                        </div>
+                    </div>
+
+                    <!-- Drawings -->
+                    <div class="gallery-item" data-category="drawings">
+                        <img src="3 penguins .jpg" alt="3 Penguins">
+                        <div class="gallery-overlay">
+                            <h3>3 Penguins</h3>
+                            <p>Penguin studies</p>
+                        </div>
+                    </div>
+                    <div class="gallery-item" data-category="drawings">
+                        <img src="penguins .jpg" alt="Penguins">
+                        <div class="gallery-overlay">
+                            <h3>Penguins</h3>
+                            <p>Penguin studies</p>
+                        </div>
+                    </div>
+                    <div class="gallery-item" data-category="drawings">
+                        <img src="baby penguin.jpg" alt="Baby Penguin">
+                        <div class="gallery-overlay">
+                            <h3>Baby Penguin</h3>
+                            <p>Penguin study</p>
+                        </div>
+                    </div>
+                    <div class="gallery-item" data-category="drawings">
+                        <img src="white pinguin.jpg" alt="White Penguin">
+                        <div class="gallery-overlay">
+                            <h3>White Penguin</h3>
+                            <p>Penguin study</p>
+                        </div>
+                    </div>
+                    <div class="gallery-item" data-category="drawings">
+                        <img src="white pinguin 2.jpg" alt="White Penguin 2">
+                        <div class="gallery-overlay">
+                            <h3>White Penguin 2</h3>
+                            <p>Penguin study</p>
+                        </div>
+                    </div>
+
+                    <div class="gallery-item" data-category="drawings">
+                        <img src="art 7.jpg" alt="Art 7">
+                        <div class="gallery-overlay">
+                            <h3>Art 7</h3>
+                            <p>Artwork</p>
+                        </div>
+                    </div>
+                    <div class="gallery-item" data-category="drawings">
+                        <img src="art 8.jpg" alt="Art 8">
+                        <div class="gallery-overlay">
+                            <h3>Art 8</h3>
+                            <p>Artwork</p>
+                        </div>
+                    </div>
+                    <div class="gallery-item" data-category="drawings">
+                        <img src="art 9.jpg" alt="Art 9">
+                        <div class="gallery-overlay">
+                            <h3>Art 9</h3>
+                            <p>Artwork</p>
+                        </div>
+                    </div>
+                    <div class="gallery-item" data-category="drawings">
+                        <img src="art 10.jpg" alt="Art 10">
+                        <div class="gallery-overlay">
+                            <h3>Art 10</h3>
+                            <p>Artwork</p>
+                        </div>
+                    </div>
+
+                    <div class="gallery-item" data-category="drawings">
+                        <img src="art of leather.jpg" alt="Art of Leather">
+                        <div class="gallery-overlay">
+                            <h3>Art of Leather</h3>
+                            <p>Mixed media artwork</p>
+                        </div>
+                    </div>
+                    <div class="gallery-item" data-category="drawings">
+                        <img src="bear sketch.jpg" alt="Bear Sketch">
+                        <div class="gallery-overlay">
+                            <h3>Bear Sketch</h3>
+                            <p>Sketch drawing</p>
+                        </div>
+                    </div>
+                    <div class="gallery-item" data-category="drawings">
+                        <img src="carpet.jpg" alt="Carpet">
+                        <div class="gallery-overlay">
+                            <h3>Carpet</h3>
+                            <p>Textile drawing</p>
+                        </div>
+                    </div>
+                    <div class="gallery-item" data-category="drawings">
+                        <img src="drawing of hilly.jpg" alt="Drawing of Hilly">
+                        <div class="gallery-overlay">
+                            <h3>Drawing of Hilly</h3>
+                            <p>Landscape drawing</p>
+                        </div>
+                    </div>
+                    <div class="gallery-item" data-category="drawings">
+                        <img src="drawing.jpg" alt="Drawing">
+                        <div class="gallery-overlay">
+                            <h3>Drawing</h3>
+                            <p>Pencil drawing</p>
+                        </div>
+                    </div>
+                    <div class="gallery-item" data-category="drawings">
+                        <img src="elephant sketch.jpg" alt="Elephant Sketch">
+                        <div class="gallery-overlay">
+                            <h3>Elephant Sketch</h3>
+                            <p>Sketch drawing</p>
+                        </div>
+                    </div>
+
+                    <div class="gallery-item" data-category="drawings">
+                        <img src="gigantic dinasour.jpg" alt="Gigantic Dinosaur">
+                        <div class="gallery-overlay">
+                            <h3>Gigantic Dinosaur</h3>
+                            <p>Dinosaur drawing</p>
+                        </div>
+                    </div>
+                    <div class="gallery-item" data-category="drawings">
+                        <img src="M.jpg" alt="M">
+                        <div class="gallery-overlay">
+                            <h3>M</h3>
+                            <p>Artwork</p>
+                        </div>
+                    </div>
+                    <div class="gallery-item" data-category="drawings">
+                        <img src="oilers.jpg" alt="Oilers">
+                        <div class="gallery-overlay">
+                            <h3>Oilers</h3>
+                            <p>Team artwork</p>
+                        </div>
+                    </div>
+
+                    <div class="gallery-item" data-category="drawings">
+                        <img src="pool.jpg" alt="Pool">
+                        <div class="gallery-overlay">
+                            <h3>Pool</h3>
+                            <p>Drawing</p>
+                        </div>
+                    </div>
+                    <div class="gallery-item" data-category="drawings">
+                        <img src="potato.jpg" alt="Potato">
+                        <div class="gallery-overlay">
+                            <h3>Potato</h3>
+                            <p>Study drawing</p>
+                        </div>
+                    </div>
+                    <div class="gallery-item" data-category="drawings">
+                        <img src="preparations.jpg" alt="Preparations">
+                        <div class="gallery-overlay">
+                            <h3>Preparations</h3>
+                            <p>Drawing</p>
+                        </div>
+                    </div>
+                    <div class="gallery-item" data-category="drawings">
+                        <img src="skeleton.jpg" alt="Skeleton">
+                        <div class="gallery-overlay">
+                            <h3>Skeleton</h3>
+                            <p>Anatomy drawing</p>
+                        </div>
+                    </div>
+                    <div class="gallery-item" data-category="drawings">
+                        <img src="spider web.jpg" alt="Spider Web">
+                        <div class="gallery-overlay">
+                            <h3>Spider Web</h3>
+                            <p>Study drawing</p>
+                        </div>
+                    </div>
+                    <div class="gallery-item" data-category="drawings">
+                        <img src="watershore.jpg" alt="Watershore">
+                        <div class="gallery-overlay">
+                            <h3>Watershore</h3>
+                            <p>Seaside drawing</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Abasila Creative Arts</h3>
+                    <p>Mixed media artistry celebrating African wildlife and marine life</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact</h4>
+                    <p>13028 121 Street Northwest<br>T5L 0B4, AB<br>587-664-5437</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="gallery.html">Gallery</a></li>
+                        <li><a href="collections.html">Collections</a></li>
+                        <li><a href="about.html">About</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Abasila Creative Arts. All rights reserved.</p>
+                <p>Website designed by <strong>Sir Floyd Makori</strong> - Web Designer from Kenya | +254717220019 | WhatsApp: <a href="https://wa.me/254781004353" style="color:#bdc3c7; text-decoration: underline;">+254781004353</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
